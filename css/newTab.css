@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  /* font-family: sans-serif; */
+  font-family: "Roboto";
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+.exten-content-full{
+  padding: 0px 50px;
+  height: 100vh;
+}
+
+.exten-content-top{
+  height: 70px;
+  padding-top: 25px;
+}
+.carewellington-header-text img{
+  position: relative;
+  top: 4px;
+}
+.exten-content-top-right-border{
+  height: 2px;
+  opacity: 0.1;
+  background: #BC8031;
+  backdrop-filter: blur(2px);
+}
+.exten-contentfull-content{
+  display: flex;
+}
+.exten-con-left{
+  width: 50%;
+}
+.exten-con-right{
+  width: 50%;
+}
+.exten-con-left h3{
+  color: #000;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 120.69% */
+margin-bottom: 20px;
+}
+.exten-con-left p{
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  margin: 0px;
+  
+}
+.exten-con-left button{
+margin-top: 40px;  
+border-radius: 8px;
+background: #BC8031;
+backdrop-filter: blur(2px);
+color: var(--Shade-0, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+letter-spacing: 0.032px;
+text-transform: uppercase;
+border: none;
+height: 64px;
+cursor: pointer;
+padding: 0px 50px;
+}
+.exten-con-right img{
+  max-width: 100%;
+ max-height:  calc(100vh - 150px);
+}
+.exten-con-left img{
+
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+}
+
+.extension-footer-top{
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  background: #FFF;
+  box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.13);
+  padding: 24px 0px;
+}
+.footer-top-left ul{
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+  margin: 0px;
+}
+.footer-top-left li:not(:last-child) {
+  border-right: 1px solid rgb(87, 87, 87);
+}
+.footer-top-left li
+{
+  color: var(--Shade-100, #000);
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px; /* 200% */
+padding: 0px 16px;
+
+}
+.footer-top-right span{
+  color: var(--Shade-100, #000);
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px; /* 200% */
+
+}
